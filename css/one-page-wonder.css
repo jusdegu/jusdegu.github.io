@@ -4,7 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
- body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: 'Lato';
 
   background-color: #38424c;
@@ -42,7 +46,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(48, 48, 48, 0.0);
 }
 
 .navbar-custom .navbar-brand {
@@ -211,11 +215,11 @@ fun-html,fun-body {
 }
 
 fun-h1,fun-h2 {
-  font-weight: 2000;
+  font-weight: 200;
   color: rgb(144, 209, 211);
   margin: 0.4em 0;
 }
-fun-h1 { font-size: 3.5em; }
+fun-h1 { font-size: 5.5em; }
 fun-h2 {
   color: #888;
   font-size: 2em;
