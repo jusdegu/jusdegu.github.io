@@ -108,34 +108,6 @@ header.masthead .bg-circle {
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
 }
 
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
@@ -187,8 +159,8 @@ section {
   width: 100%;
   padding: 0 7%;
   display: table;
-  margin: 0;
-  max-width: none;
+  margin: 0 auto;
+  position: relative;
   height: 100vh;
 }
 
@@ -218,7 +190,7 @@ fun-html,fun-body {
 fun-h1,fun-h2 {
   font-weight: 100;
   color: rgb(144, 209, 211);
-  margin: 0.4em 0;
+  margin: auto;
 }
 fun-h1 { font-size: 5.5em; }
 fun-h2 {
@@ -233,4 +205,11 @@ fun-h2 {
 
 .section-header {
   padding-top: 100px;
+}
+
+.section-stretch {
+  /* display: inline-block; */
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
