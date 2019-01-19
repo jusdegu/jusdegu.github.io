@@ -94,3 +94,4 @@ gulp.task("default", gulp.parallel('vendor', css));
 
 // dev task
 gulp.task("dev", gulp.parallel(watchFiles, browserSync));
+

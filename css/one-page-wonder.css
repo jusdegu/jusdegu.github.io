@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
-body {
+ body {
   font-family: 'Lato';
 
   background-color: #38424c;
@@ -74,6 +74,12 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll; */
+}
+
+header.masthead .masthead-centered-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header.masthead .masthead-content {
@@ -181,8 +187,36 @@ section {
   height: 100vh;
 }
 
-a.centerText {
+.main-center {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  width: 80vw;
+  height: 90vh;
+  /* text-align: center; */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 3px solid #73AD21; */
+  /* padding: 10px; */
+}
+
+fun-html,fun-body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+
+fun-h1,fun-h2 {
+  font-weight: 2000;
+  color: rgb(144, 209, 211);
+  margin: 0.4em 0;
+}
+fun-h1 { font-size: 3.5em; }
+fun-h2 {
+  color: #888;
+  font-size: 2em;
 }
