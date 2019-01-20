@@ -23,12 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
   font-weight: 800 !important;
 }
 
 .btn-xl {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 1.5rem 3rem;
   font-size: 0.9rem;
   font-weight: 700;
@@ -180,7 +179,7 @@ section {
 }
 
 fun-html,fun-body {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   padding: 1em 2em;
   font-size: 18px;
   background: #222;
@@ -212,4 +211,16 @@ fun-h2 {
   height: 100%;
   position: relative;
   width: 100%;
+}
+
+input.transparent-input{
+  background-color:rgba(0,0,0,0) !important;
+  border:none !important;
+}
+
+.round-boy img {
+  width: 85%;
+  height: 85%;
+  border: 3px solid rgb(144, 209, 211);
+  float: right;
 }
