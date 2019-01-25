@@ -4,10 +4,11 @@
     index.html
 
   Created:      10 January 2019
-  Modified:     19 January 2019
+  Modified:     20 January 2019
         by:     Justin De Guzman
 
   Template used: https://startbootstrap.com/template-overviews/one-page-wonder/
+
 <-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
 
 <!DOCTYPE html>
@@ -31,6 +32,9 @@
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
+    <!-- Animated text support -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
     <!-- Emoji support -->
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
@@ -43,7 +47,7 @@
       <!-- <div class="container"> -->
       <a class="navbar-brand" href="#">Top</a>
       <a class="navbar-brand" href="#about-me">About Me</a>
-      <a class="navbar-brand" href="#">Projects</a>
+      <a class="navbar-brand" href="#projects-section">Projects</a>
       <a class="navbar-brand" href="#contact">Contact</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -70,13 +74,12 @@
 
     <section>
       <div class="main-center">
-          <div class="col-sm-4">
-              <div class="round-boy">
-                <img class="rounded-circle" src='img/self1.png' alt="">
-              </div>
+          <div class="col-sm-3">
+            <div class="round-boy">
+              <img class="rounded-circle" src='img/self1.png' alt="">
             </div>
-          <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-          <fun-h1>Justin De Guzman<br>
+          </div>
+          <fun-h1>Justin De Guzman <br>
             <span class="txt-rotate" data-period="1500" data-rotate='[ "Software Engineer", "Web Developer", "Human", "", ""]'></span>
           </fun-h1>
           <!-- <h2>A single &lt;span&gt; is all you need.</h2> -->
@@ -92,21 +95,56 @@
 
     <section id="about-me" class="section-header" style="background-color:rgba(226, 169, 94, 0.75)">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-              <img class="img-fluid float-right" src="img/cpp_logo.png" alt="" width="70%" height="70%">
+        <div class="row container-fluid">
+          <div class="span6" style="float: none; margin: 0 auto;">
+            <h2 class="display-4 header-text">About Me</h2>
           </div>
-          <div class="col-lg-6 order-lg-1">
+        </div>
+        <div class="row justify-content-center body-paragraph">
+          <div class="col-lg-5 order-lg-1">
             <div>
-              <h2 class="display-4">This will have some stuff...</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+              <p>Hello world!
+                <br><br>
+                  My name is Justin De Guzman. I was born and raised in Los Angeles, California and moved to Florida to attend college. 
+                  I graduated from Florida State University (FSU) in December 2018 with a Bachelors of Science in Computer Science.
+                <br><br>
+                  I have a strong background in C and C++ due to the majority of FSU courses utilizing this as their programming language. 
+                  Additional programming languages that I am familiar with are Java and JavaScript.
+                <br><br>
+                When I'm not programming, my hobbies include gaming, cooking, and fishing.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 order-lg-1">
+            <div>
+<!--               
+              <p>Currently, I'm looking to pursue two new interests to advance my background in computer science: website development and embedded systems development.
+                <br>
+                <li>
+                  <b>Web development</b>:
+                  My current hobby is learning how to build a website using the basics: HTML, CSS, and JavaScript. 
+                  Eventually, I'll begin learning to use tools and frameworks such as Angular, jQuery, and React to build meaningful web applications.
+                </li>
+                <br>
+                <li>
+                  <b>Embedded Systems development</b>:
+                  A future hobby that I'm very much interested in: possibly building some form of system using a series of computers or microcontrollers (such as Raspberry Pis or Arduinos).
+                  I haven't decided on what yet, but it'll either be between creating some sort of smart home where simple tasks can easily be done through voice commands.
+                </li>
+              </p>
+               -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-header" style="background-color:rgba(128, 227, 240, 0.75)">
+    <!-- 
+
+
+     -->
+
+    <section id="projects-section" class="section-header" style="background-color:rgba(128, 227, 240, 0.75)">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -124,7 +162,7 @@
       </div>
     </section>
 
-    <section class="section-header" style="background-color:rgba(164, 166, 255, 0.75)">
+    <!-- <section class="section-header" style="background-color:rgba(164, 166, 255, 0.75)">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -140,7 +178,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact me - Need to set up with Amazon SES -->
     <section id="contact" style="background-color:rgba(44, 44, 44, 0.75)">

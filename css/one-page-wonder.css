@@ -206,6 +206,15 @@ fun-h2 {
   padding-top: 100px;
 }
 
+.header-text {
+  text-align: center;
+  border-bottom: 2px solid currentColor;
+}
+
+.body-paragraph {
+  padding-top: 20px;
+}
+
 .section-stretch {
   /* display: inline-block; */
   height: 100%;
@@ -219,8 +228,8 @@ input.transparent-input{
 }
 
 .round-boy img {
-  width: 85%;
-  height: 85%;
+  width: 90%;
+  height: 90%;
   border: 3px solid rgb(144, 209, 211);
   float: right;
 }
