@@ -104,7 +104,7 @@
         <div class="row justify-content-center body-paragraph">
           <div class="col-lg-5 order-lg-1">
             <div>
-              <p>Hello world!
+              <p><b>Hello world!</b>
                 <br><br>
                   My name is Justin De Guzman. I was born and raised in Los Angeles, California and moved to Florida to attend college. 
                   I graduated from Florida State University (FSU) in December 2018 with a Bachelors of Science in Computer Science.
@@ -118,7 +118,7 @@
           </div>
           <div class="col-lg-5 order-lg-1">
             <div>
-              <p>Currently, I'm looking to pursue two new interests to advance my background in computer science: website development and embedded systems development.
+              <p>Currently, I'm looking to pursue two new hobbies to advance my interest in programming: website development and embedded systems development.
                 <br>
                 <li>
                   <b>Web development</b>:
@@ -191,15 +191,15 @@
           </div>
           <div class="col-lg-12">
             <div>
-              <form id="contactForm" name="sentMessage" action="mailto:jdgzmn24@hotmail.com" method="POST" enctype="text/plain" role="form">
+              <form id="contactForm" name="sentMessage" action="https://formspree.io/jdgzmn24@hotmail.com" method="POST">
                 <div class="row justify-content-center align-self-center">
                   <div class="col-md-3">
                     <div class="form-group">
-                      <input class="form-control" id="contact-name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                      <input class="form-control" id="contact-name" type="text" name="name" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="contact-email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                      <input class="form-control" id="contact-email" type="email" name="_replyto" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -212,7 +212,7 @@
                   <div class="clearfix"></div>
                   <div class="col-lg-12 text-center">
                     <div id="success"></div>
-                    <button id="sendMessageButton" class="btn btn-primary btn-xl" type="submit">Send Message<br><font size="1">[ This doesn't do anything <i class="em em-wink"></i> ]</font></button>
+                    <button id="sendMessageButton" class="btn btn-primary btn-xl" type="submit" value="Send">Send Message<br><font size="1">[ This doesn't do anything <i class="em em-wink"></i> ]</font></button>
                   </div>
                 </div>
               </form>
