@@ -44,8 +44,9 @@
   <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" id="navbar">
       <!-- <div class="container"> -->
+        
       <a class="navbar-brand" href="#">Top</a>
       <a class="navbar-brand" href="#about-me">About Me</a>
       <a class="navbar-brand" href="#projects-section">Projects</a>
@@ -56,17 +57,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <li class="nav-item">
-              <a class="image-pad" href="https://www.facebook.com/itsjustiinnn" target="_blank"><img src="img/fb-logo.png" width="40" height="40" title="Facebook" alt="Facebook Link"></a>
-            </li>
+            <a class="image-pad" id="fbLogo" href="https://www.facebook.com/itsjustiinnn" target="_blank"><img class="logo-anim" src="img/fb-logo.png" title="Facebook" alt="Facebook Link"></a>
           </li>
           <li class="nav-item">
-            <li class="nav-item">
-              <a class="image-pad" href="https://www.linkedin.com/in/jusdegu/" target="_blank"><img src="img/linkedin-logo.png" width="40" height="40" title="LinkedIn" alt="LinkedIn Link"></a>
-            </li>
+            <a class="image-pad" id="linkedinLogo" href="https://www.linkedin.com/in/jusdegu/" target="_blank"><img class="logo-anim" src="img/linkedin-logo.png" title="LinkedIn" alt="LinkedIn Link"></a>
           </li>
           <li class="nav-item">
-            <a class="image-pad" href="https://github.com/jusdegu" target="_blank"><img src="img/github-logo.png" width="40" height="40" title="Github" alt="Github Link"></a>
+            <a class="image-pad" id="githubLogo" href="https://github.com/jusdegu" target="_blank"><img class="logo-anim" src="img/github-logo.png" title="Github" alt="Github Link"></a>
           </li>
         </ul>
       </div>
@@ -118,25 +115,25 @@
                       <h4 class="display-6 bottom-buffer">Skills:</h4>
                     </div>
                   </div>
-                  <div class="row container-fluid justify-content-md-center">
-                    <div class="col-md-3">
+                  <div class="row container-fluid justify-content-lg-center">
+                    <div class="col-md-4">
                       <ul>
                         <li>C/C++</li>
                         <li>Java</li>
+                        <li>HL7</li>
                       </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                       <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                       </ul>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                       <ul>
                         <li>Amazon Web Services</li>
                         <li>Git</li>
-                        <li>HL7</li>
                       </ul>
                     </div>
                   </div>
@@ -154,51 +151,72 @@
             </div>
           </div>
         </div>
-        
-        <div class="row justify-content-center body-paragraph">
-          <div class="col-8 order-lg-1">
-            <div>
-              <p>Currently, I'm looking to pursue two new hobbies to advance my interest in programming: website development and embedded systems development.
-                <br>
-                <li>
-                  <b>Web development</b>:
-                  My current hobby is learning how to build a website using the basics: HTML, CSS, and JavaScript. 
-                  Eventually, I'll begin learning to use tools and frameworks such as Angular, jQuery, and React to build meaningful web applications.
-                </li>
-                <br>
-                <li>
-                  <b>Embedded Systems development</b>:
-                  A future hobby that I'm very much interested in: possibly building some form of system using a series of computers or microcontrollers (such as Raspberry Pis or Arduinos).
-                  I haven't decided on what yet, but it'll either be between creating some sort of smart home where simple tasks can easily be done through voice commands.
-                </li>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
     <!-- 
 
 
+
      -->
 
-    <section id="projects-section" class="section-header" style="background-color:rgba(110, 110, 110, 0.75)">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div>
-              <img class="img-fluid" src="img/js_logo.png" alt="" width="70%" height="70%">
+    <section id="projects-section" class="section-header" style="background-color:rgba(156, 156, 156, 0.75)">
+      <div class="container bottom-buffer-big">
+          <div class="row container-fluid">
+            <div class="span6" style="float: none; margin: 0 auto;">
+              <h2 class="display-4 header-text">Projects</h2>
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
-            <div>
-              <h2 class="display-4">This will have more stuff!</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+          <div class="row justify-content-center body-paragraph">
+            <div class="col-8 order-lg-1">
+              <div>
+                <p>
+                  <div class="bottom-buffer">
+                    <div class="span6" style="float: center;">
+                      <h4 class="display-6 bottom-buffer">Project 1</h4>
+                    </div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                  </div>
+                  <div class="row container-fluid">
+                    <div class="row container-fluid">
+                      <div class="span6" style="float: center;">
+                        <h4 class="display-6 bottom-buffer">Project 2</h4>
+                      </div>
+                    </div>
+                    <div class="row container-fluid justify-content-lg-center">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                  </div>
+                    <!-- I have a strong background in C and C++ due to the majority of FSU courses utilizing this as their programming language. 
+                    Additional programming languages that I am familiar with are Java and JavaScript. -->
+                    
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row justify-content-center body-paragraph">
+            <div class="col-8 order-lg-1">
+              <div>
+                <p>Currently, I'm looking to pursue two new hobbies to advance my interest in programming: website development and embedded systems development.
+                  <br>
+                  <li>
+                    <b>Web development</b>:
+                    My current hobby is learning how to build a website using the basics: HTML, CSS, and JavaScript. 
+                    Eventually, I'll begin learning to use tools and frameworks such as Angular, jQuery, and React to build meaningful web applications.
+                  </li>
+                  <br>
+                  <li>
+                    <b>Embedded Systems development</b>:
+                    A future hobby that I'm very much interested in: possibly building some form of system using a series of computers or microcontrollers (such as Raspberry Pis or Arduinos).
+                    I haven't decided on what yet, but it'll either be between creating some sort of smart home where simple tasks can easily be done through voice commands.
+                  </li>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- <section class="section-header" style="background-color:rgba(164, 166, 255, 0.75)">
@@ -279,6 +297,29 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="anim-font.js"></script>
     <script src="contact.js"></script>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "10px 10px";
+          // document.getElementById("fbLogo").style.height = "10px";
+          // document.getElementById("fbLogo").style.width = "10px";
+          // document.getElementById("linkedinLogo").style.height = "10px";
+          // document.getElementById("linkedinLogo").style.width = "10px";
+          // document.getElementById("githubLogo").style.height = "10px";
+          // document.getElementById("githubLogo").style.width = "10px";
+        } else {
+          document.getElementById("navbar").style.padding = "30px 10px";
+          // document.getElementById("fbLogo").style.height = "30px";
+          // document.getElementById("fbLogo").style.width = "30px";
+          // document.getElementById("linkedinLogo").style.height = "30px";
+          // document.getElementById("linkedinLogo").style.width = "30px";
+          // document.getElementById("githubLogo").style.height = "30px";
+          // document.getElementById("githubLogo").style.width = "30px";
+        }
+      }
+    </script>
   </body>
 
 </html>

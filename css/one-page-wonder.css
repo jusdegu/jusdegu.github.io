@@ -43,9 +43,11 @@ h6 {
 }
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  padding: 30px 10px;
   background-color: rgba(48, 48, 48, 0.0);
+  transition: 0.4s;
 }
 
 .navbar-custom .navbar-brand {
@@ -202,6 +204,12 @@ fun-h2 {
   padding-bottom: 5px;
 }
 
+.logo-anim {
+  transition: 0.4s;
+  width: 40px;
+  height: 40px; 
+}
+
 .section-header {
   padding-top: 100px;
 }
@@ -245,4 +253,8 @@ input.transparent-input{
 
 .bottom-buffer-big {
   margin-bottom: 50px;
+}
+
+ul {
+  padding: 0;
 }
