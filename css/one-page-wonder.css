@@ -180,7 +180,7 @@ section {
   /* padding: 10px; */
 }
 
-li {
+.square-list {
   list-style-type: square;
 }
 
