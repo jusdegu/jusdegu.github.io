@@ -218,6 +218,14 @@ fun-h2 {
   padding-top: 100px;
 }
 
+.about-me-font {
+  color: rgb(36, 50, 61);
+}
+
+.projects-font {
+  color: rgb(53, 36, 61);
+}
+
 .header-text {
   text-align: center;
   border-bottom: 2px solid currentColor;
@@ -235,8 +243,8 @@ fun-h2 {
 .section-stretch {
   /* display: inline-block; */
   height: 100%;
-  position: relative;
   width: 100%;
+  position: relative;
 }
 
 input.transparent-input{
