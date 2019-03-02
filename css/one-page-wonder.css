@@ -13,27 +13,23 @@ body {
   font-family: 'Raleway', sans-serif;
 
   background-color: #38424c;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1720' height='206.4' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2323323c' stroke-width='25' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='206.4' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2323323c' stroke-width='25' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 
   background-attachment: fixed;
-}
-
-/* For the "inset" look only */
-html {
 }
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
   width: 9px;
 }
- 
+
 /* Track */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
@@ -76,14 +72,14 @@ h6 {
 }
 
 .navbar-custom .navbar-brand {
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.2vw;
+  /* letter-spacing: 0.1rem; */
   font-weight: 700;
   color: rgba(184, 221, 255, 0.5);
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-  font-size: 0.8rem;
+  font-size: 2vw;
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
@@ -116,23 +112,10 @@ header.masthead .masthead-content .masthead-subheading {
 
 header.masthead .bg-circle {
   z-index: 0;
-  position: absolute;
+  /* position: absolute; */
   border-radius: 100%;
   /* background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
-  }
 }
 
 .bg-primary {
@@ -183,7 +166,7 @@ section {
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  width: 80vw;
+  width: 100%;
   height: 90vh;
   /* text-align: center; */
   display: flex;
@@ -210,7 +193,7 @@ fun-h1,fun-h2 {
   color: rgb(144, 209, 211);
   margin: auto;
 }
-fun-h1 { font-size: 5.5em; }
+fun-h1 { font-size: 5.5vw; }
 fun-h2 {
   color: #888;
   font-size: 2em;
@@ -249,6 +232,10 @@ fun-h2 {
   border-bottom: 1px solid currentColor;
 }
 
+.desktop-body {
+  justify-content: center;
+}
+
 .body-paragraph {
   padding-top: 20px;
 }
@@ -266,8 +253,8 @@ input.transparent-input{
 }
 
 .round-boy img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   border: 3px solid rgb(144, 209, 211);
   float: right;
 }
@@ -285,7 +272,7 @@ input.transparent-input{
 } */
 
 .carousel-right { 
-  width: 70%; 
+  width: 100%; 
   float: right; 
   margin-bottom: 10px
 }
@@ -295,3 +282,100 @@ input.transparent-input{
   width: 350px;
 }
 
+
+/* iPhone X and Xs Max */
+@media only screen 
+and (min-device-width: 375px) 
+and (min-device-height: 812px) 
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+  body {
+    height: 100%;
+  }
+
+  .navbar-custom .navbar-brand {
+    font-size: 3.2vw;
+    /* letter-spacing: 0.1rem; */
+    font-weight: 700;
+    color: rgba(184, 221, 255, 0.5);
+  }
+
+  .round-boy img {
+    width: 70%;
+    height: 70%;
+    border: 3px solid rgb(144, 209, 211);
+    float: none;
+  }
+
+  fun-html,fun-body {
+    /* font-family: 'Raleway', sans-serif; */
+    padding: 1em 2em;
+    font-size: 12px;
+    background: #222;
+    color: #aaa
+  }
+  
+  fun-h1,fun-h2 {
+    font-weight: 100;
+    color: rgb(144, 209, 211);
+    /* margin: auto; */
+  }
+  fun-h1 { 
+    font-size: 7.5vw; 
+    font-weight: 200;
+  }
+  fun-h2 {
+    color: #888;
+    font-size: 2em;
+  }
+
+  .main-center {
+    margin-top: 400px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 3px;
+    width: 100%;
+    height: 9vh;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+  }
+
+  section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+  }
+
+  .header-text {
+    text-align: center;
+    font-size: 8vw;
+    /* border-bottom: 1px solid currentColor; */
+  }
+
+  .desktop-body {
+    justify-content: flex-start;
+  }
+
+  .body-paragraph {
+    padding-top: 0px;
+    position: absolute;
+  }
+
+  .header-text {
+    text-align: center;
+    border-bottom: 2px solid currentColor;
+  }
+
+}
