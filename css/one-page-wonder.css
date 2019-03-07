@@ -72,10 +72,15 @@ h6 {
 }
 
 .navbar-custom .navbar-brand {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2vw;
-  /* letter-spacing: 0.1rem; */
-  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
   color: rgba(184, 221, 255, 0.5);
+}
+
+.roundboy-row {
+  margin-left: 100px;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -282,11 +287,10 @@ input.transparent-input{
   width: 350px;
 }
 
-
 /* iPhone X and Xs Max */
-@media only screen 
-and (min-device-width: 375px) 
-and (min-device-height: 812px) 
+@media only screen
+and (min-device-width: 375px)
+and (min-device-height: 812px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) {
 
@@ -324,7 +328,6 @@ and (orientation: portrait) {
   fun-h1,fun-h2 {
     font-weight: 100;
     color: rgb(144, 209, 211);
-    /* margin: auto; */
   }
 
   fun-h1 { 
@@ -337,14 +340,18 @@ and (orientation: portrait) {
     font-size: 2em;
   }
 
+  .roundboy-row {
+    margin-left: 60px;
+  }
+
   .main-center {
-    margin-top: 400px;
+    margin-top: 300px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 3px;
     width: 100%;
     height: 9vh;
-    text-align: center;
+    /* text-align: center; */
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
