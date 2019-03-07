@@ -264,6 +264,10 @@ input.transparent-input{
   float: right;
 }
 
+.top-buffer {
+  margin-top: 10px;
+}
+
 .bottom-buffer {
   margin-bottom: 10px;
 }
@@ -289,10 +293,10 @@ input.transparent-input{
 
 /* iPhone X and Xs Max */
 @media only screen
-and (min-device-width: 375px)
-and (min-device-height: 812px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
+and (max-width: 768px)
+/* and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait)  */
+{
 
   html {
     scroll-behavior: smooth;
@@ -304,10 +308,24 @@ and (orientation: portrait) {
   }
 
   .navbar-custom .navbar-brand {
+    font-family: 'Raleway', sans-serif;
     font-size: 3.2vw;
     /* letter-spacing: 0.1rem; */
-    font-weight: 700;
+    font-weight: 400;
     color: rgba(184, 221, 255, 0.5);
+  }
+
+  .navbar-flexed {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .image-pad {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
   }
 
   .round-boy img {
