@@ -9,6 +9,10 @@ html {
   overflow: auto;
 }
 
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 
@@ -300,7 +304,6 @@ and (orientation: portrait)  */
 {
 
   html {
-    -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
