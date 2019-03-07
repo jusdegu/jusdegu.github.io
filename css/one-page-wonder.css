@@ -316,7 +316,8 @@ and (orientation: portrait)  */
   }
 
   .navbar-flexed {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
