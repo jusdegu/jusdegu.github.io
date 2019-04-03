@@ -1,3 +1,4 @@
+// https://codepen.io/gschier/pen/jkivt
 // Animated font for header
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
