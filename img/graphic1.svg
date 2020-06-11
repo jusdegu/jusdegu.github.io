@@ -8,7 +8,7 @@
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
-                          dur="10s"
+                          dur="1s"
                           repeatCount="indefinite"/>
     </polygon>
 </svg>
