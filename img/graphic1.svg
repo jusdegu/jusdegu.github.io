@@ -10,6 +10,13 @@
   </rdf:RDF>
  </metadata>
  <g transform="translate(-2.3725e-5)">
-  <circle cx="401.54" cy="330.82" r="190.41" fill="#d40000"/>
+  <circle cx="401.54" cy="330.82" r="190.41" fill="#d40000">
+    <animateTransform attributeName="transform"
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+        dur="1s"
+        values="0,15;0,-15;" />
+        </circle>
  </g>
 </svg>
