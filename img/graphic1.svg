@@ -54,10 +54,19 @@
     <ellipse
        id="ellipse4"
        stroke-width="0.823777"
-       fill="#0000cc"
+       fill="#cc00cc"
        ry="267.86041"
        rx="91.852348"
        cy="334.53043"
-       cx="500.09467" />
+       cx="500.09467" >
+        <animateTransform id="blah1"
+            attributeType="XML"
+            type="rotate"
+            dur="1s"
+            from="0 50 50"
+            to="360 50 50"
+            repeatCount="indefinite"/>
+  
+    </eclipse>
   </g>
 </svg>
