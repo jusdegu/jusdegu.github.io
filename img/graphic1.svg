@@ -10,15 +10,6 @@
   </rdf:RDF>
  </metadata>
  <g transform="translate(-2.3725e-5)">
-  <ellipse cx="543.46" cy="293.95" rx="48.487" ry="227.28" fill="#0000cc" stroke-width=".55132">
-    <animateTransform id="blah1"
-        attributeType="XML"
-        type="rotate"
-        dur="1s"
-        from="0 50 50"
-        to="360 50 50"
-        repeatCount="indefinite"/>
-  
-  </eclipse>
+  <ellipse cx="543.46" cy="293.95" rx="48.487" ry="227.28" fill="#0000cc" stroke-width=".55132"/>
  </g>
 </svg>
