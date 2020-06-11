@@ -10,6 +10,28 @@
   </rdf:RDF>
  </metadata>
  <g transform="translate(-2.3725e-5)">
-  <ellipse cx="539.48" cy="334.53" rx="52.465" ry="267.86" fill="#ff8080" stroke-width=".62259"/>
+  <path id = "P2" stroke = "black" stroke-width = "2" opacity = ".6" fill = "#c77"
+d = "M 150 220
+C  145 244 146 251 135 260 C 124 269 114 287 134 282
+C  154 277 162 279 159 288 C 156 297 135 305 148 308
+C  161 311 185 315 172 315 C 159 315 150 309 147 314
+C  144 319 159 322 156 327 C 153 332 141 348 153 354
+C  165 360 185 361 194 354 C 203 347 214 357 212 368
+C  210 379 196 400 204 400 C 212 400 237 396 250 394
+C  263 392 279 374 276 353 C 273 332 276 308 286 289
+C  296 270 325 240 321 215 C 317 190 304 179 286 158
+C  268 137 253 111 216 120 C 179 129 163 144 150 170
+C  137 196 150 210 160 212 C 170 214 160 222 150 220
+" >
+<animateColor attributeName="fill" dur="5s"
+     values="#ff8; #f88; #f8f; #88f; #8ff; #8f8" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" repeatCount="indefinite"
+     type="translate" dur="4s" values="0,0;-110,-140;0,0"/>
+ <animateTransform attributeName="transform" repeatCount="indefinite"
+     additive="sum" type="scale" dur="4s" values="1;1.5;1"/>
+<animateTransform attributeName="transform" repeatCount="indefinite"
+     additive="sum" type="rotate" dur="7s" values="0,216 242;360 216 242" />
+
+</path>
  </g>
 </svg>
