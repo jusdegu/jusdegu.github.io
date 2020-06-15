@@ -88,6 +88,7 @@
         <circle id="circle28-6" cx="701.55" cy="574.27" r="29.8"/>
         <circle id="circle30-7" cx="99.5" cy="570.6" r="29.8"/>
         <circle id="circle32-0" cx="98.49" cy="223.75" r="29.8"/>
+        <animate attributeName="opacity" from="0" to="1" dur="3" final="restore" />
     </g>
 </g>
 </svg>
