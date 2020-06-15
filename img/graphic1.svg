@@ -70,7 +70,7 @@
             dur="1s"
             repeatCount="1"
         />
-        <animate attributeName="opacity" begin="0s" from="0" to="1" dur="1.4" final="restore" />
+        <animate attributeName="opacity" begin="0s" from="0" to="1" dur="1.4"/>
     </g>
 
 <g id="layer1">
