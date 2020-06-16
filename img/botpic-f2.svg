@@ -23,12 +23,14 @@
     <g id="layer4">
         <circle id="path869-8" cx="4.1269" cy="6.8005" r=".84491" style="fill-opacity:.79757;fill:#ff3c00;stroke-width:.27629;stroke:#000000"/>
         <circle id="path869-6-9" cx="6.266" cy="6.7885" r=".84491" style="fill-opacity:.79757;fill:#ff3c00;stroke-width:.27629;stroke:#000000"/>
-        <animate
+        <animateTransform
             attributeType="XML"
-            attributeName="fill"
-            values="#800;#f00;#800;#800"
-            dur="0.8s"
-            repeatCount="indefinite"/>
+            attributeName="transform"
+            type="translate"
+            values="0,6; 0,-6; 0,6"
+            begin="0.3s"
+            dur="1s"
+            repeatCount="2"/>
     </g>
     <rect id="rect945" x="2.0379" y="2.1298" width=".65982" height="2.5892" ry=".32991" style="fill:none"/>
 </svg>
