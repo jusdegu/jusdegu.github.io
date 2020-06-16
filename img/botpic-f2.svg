@@ -28,7 +28,7 @@
             attributeName="transform"
             type="translate"
             values="0.2,0;-0.2,0;0.2,0;"
-            begin="0.9s"
+            begin="0.9s;op.end+0.9s"
             dur="1s"
             repeatCount="indefinite"/>
     </g>
