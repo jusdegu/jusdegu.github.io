@@ -27,7 +27,7 @@
             attributeType="XML"
             attributeName="transform"
             type="translate"
-            values="0.2,0; -0.2,0; 0.2,0"
+            values="0.2,0; -0.2,0;"
             begin="0.3s"
             dur="1s"
             repeatCount="2"/>
