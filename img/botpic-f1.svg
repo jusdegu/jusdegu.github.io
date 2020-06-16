@@ -29,7 +29,6 @@
             values="#800;#f00;#800;#800"
             dur="0.8s"
             repeatCount="indefinite"/>
-        </path>
     </g>
     <rect id="rect945" x="2.0379" y="2.1298" width=".65982" height="2.5892" ry=".32991" style="fill:none"/>
 </svg>
