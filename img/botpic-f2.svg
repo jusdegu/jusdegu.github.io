@@ -28,7 +28,7 @@
             attributeName="transform"
             type="translate"
             values="-0.2,0"
-             begin="go.click"
+            begin="0.3s"
             dur="0.6s"
             repeatCount="1"/>
             <animateTransform
