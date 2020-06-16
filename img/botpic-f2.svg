@@ -11,14 +11,6 @@
     </metadata>
     <g id="layer2">
         <circle id="path21" cx="4.6184" cy="6.0594" r="4.6184" style="fill:#ffffff;stroke-width:.2619"/>
-        <animateTransform
-            attributeType="XML"
-            attributeName="transform"
-            type="translate"
-            values="0,6; 0,-6; 0,6"
-            begin="0.3s"
-            dur="1s"
-            repeatCount="2"/>
     </g>
     <g id="layer3">
         <rect id="rect24" x="1.199" y="4.3291" width="6.8152" height="5.2915" ry="2.5169" style="fill-opacity:.57085;fill:#ffa878;stroke-width:.44193;stroke:#000000"/>
@@ -27,6 +19,14 @@
     </g>
     <g id="layer5">
         <rect id="rect996" x="2.3619" y="5.4003" width="5.2487" height="2.78" ry="1.39" style="fill:#feffff;stroke-width:.31054;stroke:#000000"/>
+        <animateTransform
+            attributeType="XML"
+            attributeName="transform"
+            type="translate"
+            values="0,6; 0,-6; 0,6"
+            begin="0.3s"
+            dur="1s"
+            repeatCount="2"/>
     </g>
     <g id="layer4">
         <circle id="path869-8" cx="4.1269" cy="6.8005" r=".84491" style="fill-opacity:.79757;fill:#ff3c00;stroke-width:.27629;stroke:#000000"/>
